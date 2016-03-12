@@ -1,0 +1,126 @@
+.headerImage{
+  background-image: url(../images/streetLevel.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  height: 60%;
+  min-height: 850px;
+}
+.yellow{
+  color: #EFC611;
+  background-color: #EFC611;
+  border-color: #EFC611;
+}
+.headerHr{
+   margin-top: -15px;
+   margin-bottom: -30px;
+   height: 1.5px;
+   border: none;
+   background-color: #EFC611;
+}
+.landingHeaderUnderline{
+  width: 850px;
+}
+.subHeading{
+  color:white;
+  font-size: 2.0em;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 50px;
+  text-shadow: 0px 2px 1px #000000;
+}
+.tryNow{
+  margin-right: 10px;
+  border-color: #EFC611;
+  background-color: #EFC611;
+}
+.browse{
+  background-color: Transparent;
+  border-color: white;
+  margin-left: 10px;
+}
+.headerButton{
+  margin-bottom: 50px;
+  height: 70px;
+  //width: 120px;
+  font-size: 1.2em;
+  margin-top: 50px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  border-style: solid;
+}
+.yellowBorderButton{
+  margin-bottom: 20px;
+  height: 70px;
+  width: 200px;
+  font-size: 1.2em;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  border-style: solid;
+  background-color: transparent;
+  border-color: #EFC611;
+  color: #EFC611;
+  font-size: 3.0em;
+  font-weight: bold;
+  border-width: thick;
+}
+.linkText{
+  color: #04639D !important;
+  text-decoration: underline !important;
+  font-size: 2.0em !important;
+}
+.linkTextContainer{
+  margin-bottom: 30px;
+}
+.logo{
+  margin-top: 150px;
+  text-align: center;
+}
+.howItWorks{
+  text-align: center;
+  margin-top: 20px;
+}
+.howItWorksLabel{
+  font-size: 2.0em;
+  font-weight: 400;
+}
+.downArrow{
+  font-size: 2.0em;
+  color: #EFC611;
+}
+.icon{
+  margin-top: 20px;
+}
+.description{
+  font-size: 1.9em;
+  line-height: 80%;
+  color: #555552;
+}
+.grayBackground{
+  background-color: #F9F9F9;
+  margin-top: 50px;
+  padding-top: 30px;
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+}
+.cancelAnytime{
+  font-size: 2.0em;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-style: italic;
+  color: #555552;
+}
+
+.driveYourIdeasUnderline{
+  width: 500px;
+}
+
+.discoverIdeasUnderline{
+  width: 450px;
+}
+.joinTodayUnderline{
+  width: 325px;
+}

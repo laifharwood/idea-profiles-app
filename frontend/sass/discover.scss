@@ -1,0 +1,105 @@
+.headerImageDiscover{
+  background-image: url(../images/skyline.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  height: 60%;
+  min-height: 850px;
+}
+.browseInputGroup{
+  margin-top: 50px;
+  font-size: 2.0em;
+  font-weight: 400;
+  text-align: center;
+}
+.browseTextInput{
+  background-color: gray;
+  opacity: 0.9;
+  height: 60px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-style: none;
+  width: 450px;
+}
+.browseButtonInput{
+  background-color: #EFC611;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  height: 60px;
+  border-style: none;
+  color:white;
+}
+.afterHeaderDiscover{
+  margin-top: 50px;
+  text-align: center;
+  //margin: 0 auto;
+}
+.businessUnderline{
+   width: 275px;
+}
+.discoverHeadingUnderline{
+  width: 825px;
+}
+.yellowBorderBox{
+  border-style: solid;
+  border-color: #EFC611;
+  border-width: 7px;
+  border-radius: 3px;
+  text-align: center;
+  color: #EFC611;
+  width: 300px;
+  height: 250px;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  background-color: transparent;
+}
+.entertainment{
+  background-color: #F9F9F9;
+}
+.entertainmentUnderline{
+  width: 450px;
+}
+.editorsPicksUnderline{
+  width: 400px;
+}
+.editorsPicksContainer{
+  width: 700px;
+  margin: 0 auto;
+}
+.ideaTitle{
+  font-size: 3em;
+}
+.likeButton{
+  background-color: transparent;
+  border: none;
+  vertical-align: 10px;
+  margin-left: 60px;
+}
+.starImage{
+  width: 45px;
+  height: auto;
+}
+.profileAndMessageButtons{
+  float: right;
+  background-color: transparent;
+  border: solid black 2px;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 1.7em;
+  font-weight: bold;
+  height: 50px;
+  width: 175px;
+}
+.ideaDescription{
+  font-size: 2.0em;
+  font-weight: 400;
+  line-height: 120%;
+}
+.ideaDescriptionContainer{
+  margin-top: 20px;
+}

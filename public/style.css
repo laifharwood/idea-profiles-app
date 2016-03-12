@@ -1,0 +1,532 @@
+.headerImageDiscover {
+  background-image: url(../images/skyline.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  height: 60%;
+  min-height: 850px; }
+
+.browseInputGroup {
+  margin-top: 50px;
+  font-size: 2.0em;
+  font-weight: 400;
+  text-align: center; }
+
+.browseTextInput {
+  background-color: gray;
+  opacity: 0.9;
+  height: 60px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-style: none;
+  width: 450px; }
+
+.browseButtonInput {
+  background-color: #EFC611;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  height: 60px;
+  border-style: none;
+  color: white; }
+
+.afterHeaderDiscover {
+  margin-top: 50px;
+  text-align: center; }
+
+.businessUnderline {
+  width: 275px; }
+
+.discoverHeadingUnderline {
+  width: 825px; }
+
+.yellowBorderBox {
+  border-style: solid;
+  border-color: #EFC611;
+  border-width: 7px;
+  border-radius: 3px;
+  text-align: center;
+  color: #EFC611;
+  width: 300px;
+  height: 250px;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  background-color: transparent; }
+
+.entertainment {
+  background-color: #F9F9F9; }
+
+.entertainmentUnderline {
+  width: 450px; }
+
+.editorsPicksUnderline {
+  width: 400px; }
+
+.editorsPicksContainer {
+  width: 700px;
+  margin: 0 auto; }
+
+.ideaTitle {
+  font-size: 3em; }
+
+.likeButton {
+  background-color: transparent;
+  border: none;
+  vertical-align: 10px;
+  margin-left: 60px; }
+
+.starImage {
+  width: 45px;
+  height: auto; }
+
+.profileAndMessageButtons {
+  float: right;
+  background-color: transparent;
+  border: solid black 2px;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 1.7em;
+  font-weight: bold;
+  height: 50px;
+  width: 175px; }
+
+.ideaDescription {
+  font-size: 2.0em;
+  font-weight: 400;
+  line-height: 120%; }
+
+.ideaDescriptionContainer {
+  margin-top: 20px; }
+
+.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+
+body {
+  font-family: 'Lato', sans-serif; }
+
+h1 {
+  color: white;
+  font-weight: 400;
+  font-size: 10.0em;
+  letter-spacing: 10px;
+  text-shadow: 0px 2px 1px #000000; }
+
+h2 {
+  font-size: 5.0em;
+  font-weight: 400;
+  text-align: center; }
+
+h3 {
+  font-size: 3.0em;
+  color: #EFC611;
+  font-weight: 900;
+  text-align: center; }
+
+h4 {
+  font-size: 1.5em;
+  font-weight: 600; }
+
+a:link {
+  text-decoration: none; }
+  a:link .browse {
+    color: white; }
+  a:link .termsLink {
+    text-decoration: underline; }
+
+.h2Underline {
+  background-color: #EFC611;
+  margin-top: -15px;
+  height: 1.5px;
+  border: none; }
+
+button:focus {
+  outline: 0; }
+
+/* HTML5 Boilerplate accessible hidden styles */
+[type="radio"] {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+/* One radio button per line */
+label {
+  display: block;
+  cursor: pointer; }
+
+[type="checkbox"] {
+  width: 25px;
+  height: 25px; }
+
+[type="checkbox"] + label > span:before {
+  margin-right: 10px; }
+
+[type="radio"] + span {
+  display: block; }
+
+/* the basic, unchecked style */
+[type="radio"] + span:before {
+  content: '';
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 7px;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 2px #000;
+  margin-right: 0.75em; }
+
+/* the checked style using the :checked pseudo class */
+[type="radio"]:checked + span:before {
+  background: black;
+  box-shadow: 0 0 0 2px #000; }
+
+@media only screen and (max-width: 800px) {
+  h1 {
+    font-size: 5em; }
+  .landingHeaderUnderline {
+    width: 500px !important; }
+  .discoverHeadingUnderline {
+    width: 500px !important; } }
+
+.headerNav {
+  margin-top: 60px; }
+
+.hamburger {
+  background-color: transparent;
+  border-color: transparent;
+  margin-left: 100px; }
+
+.login {
+  font-weight: 300px;
+  font-size: 2.0em;
+  float: right; }
+
+.headerRightButton {
+  color: white !important;
+  background-color: transparent;
+  border-color: transparent; }
+
+.loginButton {
+  margin-right: 100px; }
+
+.signUpButton {
+  margin-right: 10px; }
+
+.headerImage {
+  background-image: url(../images/streetLevel.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  height: 60%;
+  min-height: 850px; }
+
+.yellow {
+  color: #EFC611;
+  background-color: #EFC611;
+  border-color: #EFC611; }
+
+.headerHr {
+  margin-top: -15px;
+  margin-bottom: -30px;
+  height: 1.5px;
+  border: none;
+  background-color: #EFC611; }
+
+.landingHeaderUnderline {
+  width: 850px; }
+
+.subHeading {
+  color: white;
+  font-size: 2.0em;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 50px;
+  text-shadow: 0px 2px 1px #000000; }
+
+.tryNow {
+  margin-right: 10px;
+  border-color: #EFC611;
+  background-color: #EFC611; }
+
+.browse {
+  background-color: Transparent;
+  border-color: white;
+  margin-left: 10px; }
+
+.headerButton {
+  margin-bottom: 50px;
+  height: 70px;
+  font-size: 1.2em;
+  margin-top: 50px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  border-style: solid; }
+
+.yellowBorderButton {
+  margin-bottom: 20px;
+  height: 70px;
+  width: 200px;
+  font-size: 1.2em;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  border-style: solid;
+  background-color: transparent;
+  border-color: #EFC611;
+  color: #EFC611;
+  font-size: 3.0em;
+  font-weight: bold;
+  border-width: thick; }
+
+.linkText {
+  color: #04639D !important;
+  text-decoration: underline !important;
+  font-size: 2.0em !important; }
+
+.linkTextContainer {
+  margin-bottom: 30px; }
+
+.logo {
+  margin-top: 150px;
+  text-align: center; }
+
+.howItWorks {
+  text-align: center;
+  margin-top: 20px; }
+
+.howItWorksLabel {
+  font-size: 2.0em;
+  font-weight: 400; }
+
+.downArrow {
+  font-size: 2.0em;
+  color: #EFC611; }
+
+.icon {
+  margin-top: 20px; }
+
+.description {
+  font-size: 1.9em;
+  line-height: 80%;
+  color: #555552; }
+
+.grayBackground {
+  background-color: #F9F9F9;
+  margin-top: 50px;
+  padding-top: 30px;
+  margin-bottom: 50px;
+  padding-bottom: 30px; }
+
+.cancelAnytime {
+  font-size: 2.0em;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-style: italic;
+  color: #555552; }
+
+.driveYourIdeasUnderline {
+  width: 500px; }
+
+.discoverIdeasUnderline {
+  width: 450px; }
+
+.joinTodayUnderline {
+  width: 325px; }
+
+.modalExit {
+  text-align: right; }
+
+.modalExitButton {
+  background-color: transparent !important;
+  border-color: transparent; }
+
+.modalTitle {
+  margin-top: 0px; }
+
+.loginButtonContainer {
+  text-align: center; }
+
+.socialLogin {
+  color: white;
+  border-color: transparent;
+  border-radius: 10px;
+  font-size: 1.5em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 40px; }
+
+.linkedIn {
+  background-color: #197FB5;
+  margin-right: 10px; }
+
+.facebook {
+  background-color: #3C5A99;
+  margin-left: 10px; }
+
+.loginForm {
+  text-align: center; }
+
+.inputLogin {
+  width: 80%;
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  border-bottom-style: solid;
+  border-color: black;
+  border-width: thin;
+  outline: 0;
+  border-color: gray;
+  font-size: 1.5em;
+  font-weight: bolder; }
+
+.inputLoginHalf {
+  width: 39%;
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  border-bottom-style: solid;
+  border-color: black;
+  border-width: thin;
+  outline: 0;
+  border-color: gray;
+  font-size: 1.5em;
+  font-weight: bolder; }
+
+.inputLoginHalfLeft {
+  margin-right: 10px; }
+
+.inputLoginHalfRight {
+  margin-left: 10px; }
+
+.formLabel {
+  text-align: left;
+  font-size: 1.5em;
+  margin-left: 10%; }
+
+.formLabelHalf {
+  text-align: left;
+  font-size: 1.5em; }
+
+.formLabelHalfLeft {
+  margin-left: 10%; }
+
+.formLabelHalfRight {
+  margin-left: 30%; }
+
+.goButtonContainer {
+  text-align: center;
+  margin-bottom: 70px; }
+
+.transparentText {
+  color: transparent; }
+
+.submitLogin {
+  background-color: #EFC611;
+  border-color: #EFC611;
+  border-radius: 10px;
+  font-size: 3.0em;
+  font-weight: 400;
+  color: white;
+  border-style: solid;
+  width: 20%; }
+
+.planContainer {
+  margin-left: 30px;
+  margin-right: 30px; }
+
+.signUpQuote {
+  width: 35%;
+  background-color: transparent;
+  border: none;
+  text-align: left;
+  font-size: 1.5em;
+  pointer-events: none; }
+
+.pricingPlanButton {
+  float: right;
+  border-color: #EFC611;
+  border-width: 5px;
+  border-radius: 20px;
+  border-style: solid;
+  width: 13%;
+  margin-left: 20px;
+  margin-right: 20px;
+  z-index: 2;
+  font-weight: bolder;
+  height: 60px;
+  font-size: 2em; }
+
+.featureTitleDescrip {
+  pointer-events: none;
+  background-color: transparent;
+  border: none;
+  text-align: left;
+  width: 40%; }
+
+.featureDescrip {
+  font-size: 1.3em; }
+
+.checkMarkSignUp {
+  float: right;
+  background-color: transparent;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: none;
+  width: 13%;
+  margin-top: 30px; }
+
+.checkMarkImage {
+  width: 20%;
+  height: auto; }
+
+.floatingHighlight {
+  background-color: transparent;
+  border-color: #EFC611;
+  border-width: 5px;
+  border-radius: 20px;
+  border-style: solid;
+  width: 13%;
+  height: 120%;
+  position: relative;
+  float: right;
+  margin-right: 20px;
+  z-index: -0; }
+
+.transDummy {
+  width: 100%;
+  background-color: transparent;
+  color: transparent;
+  height: 100%; }
+
+.radioLabelSignUp {
+  font-weight: lighter; }
+
+.termsDiv {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.termsLink {
+  margin-left: 15px;
+  vertical-align: 3px; }
+
+@media only screen and (max-width: 975px) {
+  .pricingPlanButton {
+    font-size: 1em;
+    border-width: 2px; } }
+
+.black {
+  color: black; }
